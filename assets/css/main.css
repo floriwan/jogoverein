@@ -1796,7 +1796,7 @@
 	}
 
 	body, input, select, textarea {
-		color: #777;
+		color: #444;
 		font-family: "Source Sans Pro", sans-serif;
 		font-size: 16pt;
 		font-weight: 300;
@@ -3030,10 +3030,10 @@
 	#banner {
 		background-attachment: scroll,							fixed;
 		background-color: #666;
-		background-image: url("images/thinkpad.jpg"), url("../../images/banner.jpg");
-		background-position: top left,						center center;
-		background-repeat: repeat,							no-repeat;
-		background-size: auto,							cover;
+		background-image: url("images/thinkpad.jpg");
+		background-position: center center;
+		background-repeat: no-repeat;
+		background-size: cover;
 		color: #fff;
 		padding: 12em 0 20em 0;
 		text-align: center;
