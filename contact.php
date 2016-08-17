@@ -6,7 +6,7 @@ if ($_SERVER['REQUEST_METHOD'] === "POST") {
 
 	$errors = '';
 	//$myemail = 'nospam@goeldenitz.org';
-	$myemail = 'verein@goeldenitz.org';
+	$myemail = 'verein@goeldenitz.org, nospam@goeldenitz.org';
 	
 	if(empty($_POST['name'])  || empty($_POST['email']) || empty($_POST['message'])) {
 		$errors .= "\n Error: all fields are required";
