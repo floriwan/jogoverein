@@ -1,0 +1,94 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-11-04 22:25+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../../index.php:37
+msgid "test"
+msgstr ""
+
+#: ../../../index.php:39
+msgid ""
+"Das Programm <strong>JoGoVEREIN</strong> zeichnet sich durch eine hohe "
+"Flexibilit&auml;t aus.\n"
+"                                                Es ist zwar auf die "
+"Vereinsverwaltung ausgerichtet, bietet aber viel Freiheit f&uuml;r eigene\n"
+"                                                Anpassungen und "
+"Erweiterungen. Die Voreinstellungen des Programms lassen sich sehr "
+"weitgehend den\n"
+"                                                individuellen W&uuml;nschen "
+"anpassen."
+msgstr ""
+
+#: ../../../index.php:46
+msgid "Datenbankformat wahlweise Microsoft Access oder MySQL"
+msgstr ""
+
+#: ../../../index.php:47
+msgid "Die Daten lassen sich von Access nach MySQL und umgekehrt kopieren."
+msgstr ""
+
+#: ../../../index.php:48
+msgid "Datenimport bereits erfasster Mitgliederdaten"
+msgstr ""
+
+#: ../../../index.php:49
+msgid "Datenimport und -export von Buchungen im SWIFT-Format"
+msgstr ""
+
+#: ../../../index.php:50
+msgid "Freie Definition der Datenfelder des Mitgliederdatensatzes"
+msgstr ""
+
+#: ../../../index.php:51
+msgid ""
+"Berechnung von Datenfeldinhalten mit arithmetischen und logischen "
+"Ausdr&Atilde;&frac14;cken"
+msgstr ""
+
+#: ../../../index.php:52
+msgid "Bearbeitung der Datenbankinhalte mit Microsoft-Access m&ouml;glich"
+msgstr ""
+
+#: ../../../index.php:53
+msgid "Freie Eingabe der in Microsoft Access m&ouml;glichen SQL-Abfragen"
+msgstr ""
+
+#: ../../../index.php:54
+msgid "Einbindung der Datenbankfelder in Microsoft-Word und Outlook"
+msgstr ""
+
+#: ../../../index.php:55
+msgid "Datenexport nach Microsoft-Excel, -Word, -Access und Textformat"
+msgstr ""
+
+#: ../../../index.php:56
+msgid ""
+"Datenexport in den Textkodierungen: DOS, ASCII, ANSI oder UNICODE m&ouml;"
+"glich."
+msgstr ""
+
+#: ../../../index.php:57
+msgid ""
+"Umsteuerung der Druckausgabe in eine Textdatei (5,63 Druckersteuerzeichen)"
+msgstr ""
+
+#: ../../../index.php:58
+msgid ""
+"Benutzeroberfl&auml;che und Hilfedatei lassen sich umschalten zwischen "
+"deutsch/englisch"
+msgstr ""

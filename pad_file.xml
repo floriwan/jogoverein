@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<XML_DIZ_INFO>
+	<MASTER_PAD_VERSION_INFO>
+		<MASTER_PAD_EDITOR>DeuPAD 3.1.0.55 (http://www.deupad.org)</MASTER_PAD_EDITOR>
+		<MASTER_PAD_INFO>Portable Application Description, or PAD for short, is a data set that is used by shareware authors to dissemminate information to anyone interested in their software products.  To find out more go to http://www.asp-shareware.org/pad</MASTER_PAD_INFO>
+		<MASTER_PAD_VERSION>3.10</MASTER_PAD_VERSION>
+	</MASTER_PAD_VERSION_INFO>
+	<Company_Info>
+		<Company_Name>Göldenitz</Company_Name>
+		<Address_1>Nibelungenstr. 22</Address_1>
+		<Address_2 />
+		<Zip_Postal_Code>64625</Zip_Postal_Code>
+		<City_Town>Bensheim</City_Town>
+		<Country>Deutschland</Country>
+		<State_Province />
+		<Company_WebSite_URL>http://jogoverein.goeldenitz.org/</Company_WebSite_URL>
+		<Contact_Info>
+			<Author_First_Name>Joachim</Author_First_Name>
+			<Author_Last_Name>Göldenitz</Author_Last_Name>
+			<Author_Email>verein@goeldenitz.org</Author_Email>
+			<Contact_First_Name>Joachim</Contact_First_Name>
+			<Contact_Last_Name>Göldenitz</Contact_Last_Name>
+			<Contact_Email>verein@goeldenitz.org</Contact_Email>
+		</Contact_Info>
+		<Support_Info>
+			<General_Email>verein@goeldenitz.org</General_Email>
+			<Support_Email>verein@goeldenitz.org</Support_Email>
+			<Sales_Email>verein@goeldenitz.org</Sales_Email>
+			<General_Phone>0561-3163667</General_Phone>
+			<Support_Phone>0561-3163667</Support_Phone>
+			<Sales_Phone>0561-3163667</Sales_Phone>
+			<Fax_Phone />
+		</Support_Info>
+	</Company_Info>
+	<Program_Info>
+		<Program_Name>JoGoVEREIN</Program_Name>
+		<Program_Version>3.3.3</Program_Version>
+		<Program_Type>Freeware</Program_Type>
+		<Program_Release_Status>New Release</Program_Release_Status>
+		<Program_Category_Class>Business::Accounting &amp; Finance</Program_Category_Class>
+		<Program_Release_Year>2016</Program_Release_Year>
+		<Program_Release_Month>08</Program_Release_Month>
+		<Program_Release_Day>19</Program_Release_Day>
+		<Program_Cost_Other>0.00</Program_Cost_Other>
+		<Program_Cost_Other_Code />
+		<Program_Cost_Dollars>0.00</Program_Cost_Dollars>
+		<Program_Change_Info>Umschaltung deutsch / englisch. Beitragseinzug mit SEPA Lastschriftdatei.</Program_Change_Info>
+		<Program_Language>German,English</Program_Language>
+		<Program_OS_Support>Win7 x32,Win7 x64,WinVista,WinVista x64</Program_OS_Support>
+		<Program_Install_Support>Install and Uninstall</Program_Install_Support>
+		<Program_System_Requirements>Framework 4.5</Program_System_Requirements>
+		<File_Info>
+			<File_Size_Bytes>8995629</File_Size_Bytes>
+			<File_Size_K>8784</File_Size_K>
+			<File_Size_MB>8.58</File_Size_MB>
+		</File_Info>
+		<Expire_Info>
+			<Has_Expire_Info>Y</Has_Expire_Info>
+			<Expire_Based_On />
+			<Expire_Count>0</Expire_Count>
+			<Expire_Other_Info>Nur Hinweis beim Ausdruck bei fehlender Registrierung</Expire_Other_Info>
+			<Expire_Year />
+			<Expire_Month />
+			<Expire_Day />
+		</Expire_Info>
+		<Program_Specific_Category>Business</Program_Specific_Category>
+	</Program_Info>
+	<Program_Descriptions>
+		<German>
+			<Keywords>Vereinsprogramm, Vereinssoftware, Vereinsverwaltung, Kassenführung, Mitgliederverwaltung, Datenbank, Access, MySQL, Beitragseinzug, SEPA, Lastschriftverfahren, Mitgliedsbeiträge, Verein, Kleingartenverein</Keywords>
+			<Char_Desc_45>Flexible Vereinsverwaltung in Access u. MySQL</Char_Desc_45>
+			<Char_Desc_80>Flexible Vereinsverwaltung (Kasse und Mitglieder) im Format MS-Access und MySQL</Char_Desc_80>
+			<Char_Desc_250>Flexible Vereinsverwaltung mit Kassenführung, Beitrags- u. Mitgliederverwaltung im Datenformat MS-Access und MySQL. Die Datenbank fügt sich in die Microsoft-Office-Umgebung (Word, Excel, Outlook) ein. Datenfelder lassen frei definieren und berechnen.</Char_Desc_250>
+			<Char_Desc_450>Flexible Vereinsverwaltung mit Kassenführung, Beitrags- u. Mitgliederverwaltung im Datenformat Access und MySQL. Die Datenbank fügt sich in die Microsoft-Office-Umgebung (Word, Excel, Outlook) ein. Datenfelder lassen frei definieren und berechnen. Einzug über SEPA-Lastschriftverfahren ist möglich. Druckausgaben lassen sich frei gestalten. Mit einem speziellen Programmmodul lassen sich Zählerstände (Kleingartenverein) erfassen und abrechnen.</Char_Desc_450>
+			<Char_Desc_2000>JoGoVEREIN ist ein flexibles Vereinsverwaltung mit Kassenführung, Beitrags- u. Mitgliederverwaltung im Datenformat MS-Access und MySQL. Die Daten lassen sich zwischen den beiden Formaten kopieren.
+
+Die Datenbank lässt sich sehr flexibel auf die jeweiligen Anforderungen des Vereins anpassen. Anhand der Beispieldatenbank und der umfangreichen Hilfedatei kann der Anwender sich ein maßgeschneidertes System konfigurieren.
+
+Bereits erfasste Mitgliederdaten können importiert werden. Datenexporte sind in verschiedenen Formaten (Text, Excel, Access) möglich. Mit Microsoft-Word geschriebene Serienbriefe können so z.B. mit Anschriften oder E-Mailadressen versorgt werden. Auch Microsoft-Outlook kann auf die gespeicherten E-Mailadressen zugreifen.
+
+Die Datenfelder für den Mitgliederdatensatz sind frei konfigurierbar. Telefon Ortsnetzkennzahlen, Post- und Bankleitzahlen von Deutschland, Schweiz und Österreich sind integriert. Zusätzlich lassen sich IBAN und BIC für die genannten Länder aus Bankleitzahl und Kontonummer berechnen. Feldinhalte lassen sich mit arithmetischen und logischen Ausdrücken berechnen. Mit Memo-Feldern können beliebig umfangreiche Texte gespeichert werden. In Bilddateien gespeicherte Bilder lassen sich dem Mitgliederdatensatz zuordnen und in der Eingamaske einzeigen.
+
+Listen und Etiketten lassen mit einer grafischen Benutzeroberfläche frei gestalten und z.B. mit Grafiken und Bildern versehen. Beitragszahlungen werden im Kassenbuch eingetragen und zusätzlich dem Beitragskonto des Mitglieds zugeordnet. Das SEPA Lastschriftverfahren ist integriert.
+
+Der Zugriff auf die Datenbank lässt sich über ein Passwort schützen, wobei dann die Daten verschlüsselt abgespeichert werden. Statistiken lassen sich weitgehend frei konfigurieren und die Ergebnisse als Grafik ausgeben. Daten zum Schreiben von Zuwendungsbestätigungen werden bereitgestellt.
+
+Mit einer Zusatzfunktion lassen sich Zählerstände (Kleingartenverein) erfassen, abrechnen, drucken und exportiern.</Char_Desc_2000>
+		</German>
+		<English>
+			<Keywords>Club program, club software, club management, allotment association, cash management, member management, database access, premium collection, DTAUS, SEPA, membership fees, club</Keywords>
+			<Char_Desc_45>Flexible club management in Access and MySQL</Char_Desc_45>
+			<Char_Desc_80>Flexible Club Management (Cash book and members) based on MS-Access and MySQL.</Char_Desc_80>
+			<Char_Desc_250>Flexible Club management with cash management, fees and membership management in MS-Access and MySQL. The database is part of the Microsoft Office environment (Word, Excel, Outlook). Data fields can be added and defined free and also calculated.</Char_Desc_250>
+			<Char_Desc_450>Flexible Club management with Cash management, fees and membership management based on MS-Access or MySQL. The database is part of the Microsoft Office environment (Word, Excel, Outlook). Data fields can be defined and calculated free. Paperless fees collection over DTAUS file or SEPA direct credit transfer is possible. Print layouts can be customized freely. With a special program module can be recorded counts (Kleingartenverein) and billing.</Char_Desc_450>
+			<Char_Desc_2000>JoGoVEREIN is a flexible club management program with cash-book, fees management and membership management based on Microsoft Access or MySQL.
+
+The database can be adapted flexibly to the particular requirements of the club. Based on the sample database and the extensive help file, the user can configure a custom system.
+
+Already entered members data can be imported. Data can be exported in various formats (text, Excel, Access) is possible. Because of the format of the Access database, the stored data are readable from the Microsoft Office programs. With Microsoft Word written letters so that for instance be supplied with addresses. The stored E-Mail addresses can be used by Microsoft Outlook.
+
+The data fields for the member record can be freely configured. Telephone area codes, postal and bank codes of Germany, Switzerland and Austria are integrated. Field contents can be calculated with arithmetic and logical expressions. With memo fields can be arbitrarily large texts are stored. Images stored in image files can be assigned to the member record and shown in the input maske.
+
+Lists and labels can be designed with a graphical user interface and provided with graphics and images. Contributions are recorded in the cash book and in addition to the contribution account of the member assigned. The fees collection by direct debit can done by DTAUS- or SEPA-file.
+
+Access to the database can be protected by a password, and then the data is stored in encrypted form. Bank codes are updated via the Internet. Summary information can be output as a graphic. Data for writing tax receipts are provided.
+
+With an additional function can be captured counts (Kleingartenverein), settle, print and export it.</Char_Desc_2000>
+		</English>
+	</Program_Descriptions>
+	<Web_Info>
+		<Application_URLs>
+			<Application_Info_URL>http://jogoverein.goeldenitz.org/</Application_Info_URL>
+			<Application_Order_URL>http://jogoverein.goeldenitz.org/</Application_Order_URL>
+			<Application_Screenshot_URL>http://jogoverein.goeldenitz.org/screenshot.jpg</Application_Screenshot_URL>
+			<Application_Icon_URL>http://jogoverein.goeldenitz.org/JoGoSoft.gif</Application_Icon_URL>
+			<Application_XML_File_URL>http://jogoverein.goeldenitz.org/pad_file.xml</Application_XML_File_URL>
+		</Application_URLs>
+		<Download_URLs>
+			<Primary_Download_URL>http://jogoverein.goeldenitz.org/JoGoVEREIN.msi</Primary_Download_URL>
+			<Secondary_Download_URL />
+			<Additional_Download_URL_1 />
+			<Additional_Download_URL_2 />
+		</Download_URLs>
+	</Web_Info>
+	<Permissions>
+		<Distribution_Permissions />
+		<EULA />
+	</Permissions>
+	<DeuPAD>
+		<DeuPAD_Extension_Version>2.00</DeuPAD_Extension_Version>
+		<DeuPAD_Extension_Info>For information on the DeuPAD Extensions please go to http://www.deupad.org</DeuPAD_Extension_Info>
+		<SAVE_Member>Y</SAVE_Member>
+		<SAVE_Member_Number>JOG</SAVE_Member_Number>
+		<Company_Unique_ID />
+		<Save_Prog_Num>JOG</Save_Prog_Num>
+		<Program_Unique_ID />
+		<Program_Cost_EUR>0.00</Program_Cost_EUR>
+	</DeuPAD>
+	<Affiliates>
+		<Affiliates_FORM>Y</Affiliates_FORM>
+		<Affiliates_VERSION>1.2</Affiliates_VERSION>
+		<Affiliates_URL>http://www.asp-shareware.org/pad/extensions/Affiliates.htm</Affiliates_URL>
+		<Affiliates_Information_Page />
+		<Affiliates_Avangate_Order_Page />
+		<Affiliates_Avangate_Vendor_ID />
+		<Affiliates_Avangate_Product_ID />
+		<Affiliates_Avangate_Maximum_Commission_Rate />
+		<Affiliates_BMTMicro_Order_Page />
+		<Affiliates_BMTMicro_Vendor_ID />
+		<Affiliates_BMTMicro_Product_ID />
+		<Affiliates_BMTMicro_Maximum_Commission_Rate />
+		<Affiliates_Cleverbridge_Order_Page />
+		<Affiliates_Cleverbridge_Vendor_ID />
+		<Affiliates_Cleverbridge_Product_ID />
+		<Affiliates_Cleverbridge_Maximum_Commission_Rate />
+		<Affiliates_clixGalore_Order_Page />
+		<Affiliates_clixGalore_Vendor_ID />
+		<Affiliates_clixGalore_Product_ID />
+		<Affiliates_clixGalore_Maximum_Commission_Rate />
+		<Affiliates_CommissionJunction_Order_Page />
+		<Affiliates_CommissionJunction_Vendor_ID />
+		<Affiliates_CommissionJunction_Product_ID />
+		<Affiliates_CommissionJunction_Maximum_Commission_Rate />
+		<Affiliates_DigiBuy_Order_Page />
+		<Affiliates_DigiBuy_Vendor_ID />
+		<Affiliates_DigiBuy_Product_ID />
+		<Affiliates_DigiBuy_Maximum_Commission_Rate />
+		<Affiliates_DigitalCandle_Order_Page />
+		<Affiliates_DigitalCandle_Vendor_ID />
+		<Affiliates_DigitalCandle_Product_ID />
+		<Affiliates_DigitalCandle_Maximum_Commission_Rate />
+		<Affiliates_Emetrix_Order_Page />
+		<Affiliates_Emetrix_Vendor_ID />
+		<Affiliates_Emetrix_Product_ID />
+		<Affiliates_Emetrix_Maximum_Commission_Rate />
+		<Affiliates_eSellerate_Order_Page />
+		<Affiliates_eSellerate_Vendor_ID />
+		<Affiliates_eSellerate_Product_ID />
+		<Affiliates_eSellerate_Maximum_Commission_Rate />
+		<Affiliates_Kagi_Order_Page />
+		<Affiliates_Kagi_Vendor_ID />
+		<Affiliates_Kagi_Product_ID />
+		<Affiliates_Kagi_Maximum_Commission_Rate />
+		<Affiliates_LinkShare_Order_Page />
+		<Affiliates_LinkShare_Vendor_ID />
+		<Affiliates_LinkShare_Product_ID />
+		<Affiliates_LinkShare_Maximum_Commission_Rate />
+		<Affiliates_NorthStarSol_Order_Page />
+		<Affiliates_NorthStarSol_Vendor_ID />
+		<Affiliates_NorthStarSol_Product_ID />
+		<Affiliates_NorthStarSol_Maximum_Commission_Rate />
+		<Affiliates_OneNetworkDirect_Order_Page />
+		<Affiliates_OneNetworkDirect_Vendor_ID />
+		<Affiliates_OneNetworkDirect_Product_ID />
+		<Affiliates_OneNetworkDirect_Maximum_Commission_Rate />
+		<Affiliates_Order1_Order_Page />
+		<Affiliates_Order1_Vendor_ID />
+		<Affiliates_Order1_Product_ID />
+		<Affiliates_Order1_Maximum_Commission_Rate />
+		<Affiliates_Osolis_Order_Page />
+		<Affiliates_Osolis_Vendor_ID />
+		<Affiliates_Osolis_Product_ID />
+		<Affiliates_Osolis_Maximum_Commission_Rate />
+		<Affiliates_Plimus_Order_Page />
+		<Affiliates_Plimus_Vendor_ID />
+		<Affiliates_Plimus_Product_ID />
+		<Affiliates_Plimus_Maximum_Commission_Rate />
+		<Affiliates_Regnet_Order_Page />
+		<Affiliates_Regnet_Vendor_ID />
+		<Affiliates_Regnet_Product_ID />
+		<Affiliates_Regnet_Maximum_Commission_Rate />
+		<Affiliates_Regnow_Order_Page />
+		<Affiliates_Regnow_Vendor_ID />
+		<Affiliates_Regnow_Product_ID />
+		<Affiliates_Regnow_Maximum_Commission_Rate />
+		<Affiliates_Regsoft_Order_Page />
+		<Affiliates_Regsoft_Vendor_ID />
+		<Affiliates_Regsoft_Product_ID />
+		<Affiliates_Regsoft_Maximum_Commission_Rate />
+		<Affiliates_ShareIt_Order_Page />
+		<Affiliates_ShareIt_Vendor_ID />
+		<Affiliates_ShareIt_Product_ID />
+		<Affiliates_ShareIt_Maximum_Commission_Rate />
+		<Affiliates_Shareasale_Order_Page />
+		<Affiliates_Shareasale_Vendor_ID />
+		<Affiliates_Shareasale_Product_ID />
+		<Affiliates_Shareasale_Maximum_Commission_Rate />
+		<Affiliates_SWReg_Order_Page />
+		<Affiliates_SWReg_Vendor_ID />
+		<Affiliates_SWReg_Product_ID />
+		<Affiliates_SWReg_Maximum_Commission_Rate />
+		<Affiliates_V-Share_Order_Page />
+		<Affiliates_V-Share_Vendor_ID />
+		<Affiliates_V-Share_Product_ID />
+		<Affiliates_V-Share_Maximum_Commission_Rate />
+		<Affiliates_VFree_Order_Page />
+		<Affiliates_VFree_Vendor_ID />
+		<Affiliates_VFree_Product_ID />
+		<Affiliates_VFree_Maximum_Commission_Rate />
+		<Affiliates_Yaskifo_Order_Page />
+		<Affiliates_Yaskifo_Vendor_ID />
+		<Affiliates_Yaskifo_Product_ID />
+		<Affiliates_Yaskifo_Maximum_Commission_Rate />
+	</Affiliates>
+	<ASP>
+		<ASP_FORM>Y</ASP_FORM>
+		<ASP_Member>N</ASP_Member>
+		<ASP_Member_Number />
+	</ASP>
+</XML_DIZ_INFO>
