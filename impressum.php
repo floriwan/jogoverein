@@ -25,29 +25,20 @@
 						<h2>Impressum</h2>
 					</header>
 					<div class="box">
-					
-						<h3>Nutzungsrechte</h3>
-						<p>Durch den Download ist es dem Kunden gestattet, die
-						 Software auf einem Computer zu installieren und zu testen.
-						 Die unentgeltliche Weitergabe oder &Uuml;berlassung der
-						  Software
-						 an Dritte durch den Kunden ist erlaubt. Der Kunde kann die
-						 Software durch den Erwerb und die Installation eines
-						 Lizenzschl&uuml;ssels in der Funktion erweitern. Die Weitergabe
-						 des Schl&uuml;ssels an Dritte ist nicht erlaubt und stellt eine
-						 Verletzung des Lizenzvertrages dar.</p>
+					  <h3>Nutzungsrechte</h3>
+						<p>Durch den Download ist es dem Kunden gestattet, die Software auf einem Computer zu installieren und zu testen.
+						   Die unentgeltliche Weitergabe oder &Uuml;berlassung der Software an Dritte durch den Kunden ist erlaubt.
+						   Der Kunde kann die Software durch den Erwerb und die Installation eines Lizenzschl&uuml;ssels in der Funktion erweitern.
+						   Die Weitergabe des Schl&uuml;ssels an Dritte ist nicht erlaubt und stellt eine Verletzung des Lizenzvertrages dar.</p>
 						<h3>Haftungsausschluss</h3>
-						<p>Mit der Nutzung des Programms kommt keinerlei
-						Vertragsverh&auml;ltnis zwischen dem Nutzer und dem Anbieter
-						zustande. Insofern ergeben sich auch keinerlei Anspr&uuml;che
-						gegen den Anbieter. Trotz gr&ouml;&szlig;ter Sorgfalt bei der Erstellung
-						der Software &uuml;bernimmt der Anbieter keine Gew&auml;hr f&uuml;r
-						Fehlerfreiheit.</p>
-
+						<p>Mit der Nutzung des Programms kommt keinerlei Vertragsverh&auml;ltnis zwischen dem Nutzer und dem Anbieter
+						   zustande. Insofern ergeben sich auch keinerlei Anspr&uuml;che gegen den Anbieter. Trotz gr&ouml;&szlig;ter
+						   Sorgfalt bei der Erstellung der Software &uuml;bernimmt der Anbieter keine Gew&auml;hr f&uuml;r Fehlerfreiheit.</p>
 						<table><tr>
 							<td>Dipl.-Ing Joachim G&ouml;ldenitz</br>
 								Nibelungenstra&szlig;e 22</br>
-								64625 Bensheim
+								64625 Bensheim</br>
+								E-Mail: verein@goeldenitz.org
 							</td>
 							<td>Konto: 285491606</br>
 								BLZ: 50010060 Postbank Ffm</br>

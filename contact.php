@@ -53,7 +53,8 @@ if ($_SERVER['REQUEST_METHOD'] === "POST") {
 	<body>
 		<div id="page-wrapper">
 
-			<?php include ("header.html"); ?>
+            <?php include ("language_selection.php"); ?>
+            <?php include ("header_".$GLOBALS['lang'].".php"); ?>
 
 			<!-- Main -->
 				<section id="main" class="container 75%">
@@ -105,7 +106,8 @@ if ($_SERVER['REQUEST_METHOD'] === "POST") {
 					<table><tr>
 					<td>Dipl.-Ing Joachim G&ouml;ldenitz</br>
 						Nibelungenstra&szlig;e 22</br>
-						64625 Bensheim
+						64625 Bensheim</br>
+						E-Mail: verein@goeldenitz.org
 					</td>
 					<td>Konto: 285491606</br>
 						BLZ: 50010060 Postbank Ffm</br>

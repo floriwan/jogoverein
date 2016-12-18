@@ -16,8 +16,10 @@
 	<body>
 		<div id="page-wrapper">
 
+            <?php include ("language_selection.php"); ?>
+            
 			<!-- Header -->
-				<?php include ("header.html"); ?>
+                <?php include ("header_".$GLOBALS['lang'].".php"); ?>
 
 			<!-- Main -->
 				<section id="main" class="container">
@@ -32,16 +34,16 @@
 						Sie sind kein Ersatz für die Dokumentation, die wesentlich detaillierter ist.</p>
 						
 						<p>Falls Microsoft PowerPoint nicht installiert ist, kann der 
-						<a href="http://www.microsoft.com/de-de/download/details.aspx?id=13"> kostenlose PowerPoint Viewer 						vom Microsoft Download Center</a> installiert werden.</p>
+						<a href="http://www.microsoft.com/de-de/download/details.aspx?id=13"> kostenlose PowerPoint Viewer vom Microsoft Download Center</a> installiert werden.</p>
 						
 						<ul class="alt">
-							<li><a href="http://jogoverein.goeldenitz.org/JoGoVEREIN-Installation.ppsx">
+							<li><a href="JoGoVEREIN-Installation.ppsx">
 								<i class="icon fa-download"></i> Download und Installation des Programms</a>
-							<li><a href="http://jogoverein.goeldenitz.org/JoGoVEREIN-Personalisierung.ppsx">
+							<li><a href="JoGoVEREIN-Personalisierung.ppsx">
 								<i class="icon fa-download"></i> Anpassungen von Daten und Programm an eigene Anforderungen</a>
-							<li><a href="http://jogoverein.goeldenitz.org/JoGoVEREIN-Lastschriften.ppsx"
+							<li><a href="JoGoVEREIN-Lastschriften.ppsx"
 								<i class="icon fa-download"></i> Einzug von Beiträgen mit dem SEPA-Lastschriftverfahren</a>
-							<li><a href="http://jogoverein.goeldenitz.org/JoGoVEREIN-Listen.ppsx">
+							<li><a href="JoGoVEREIN-Listen.ppsx">
 								<i class="icon fa-download"></i> Entwurf und Drucken eigener Listen</a>
 						</ul>
 					</div>
