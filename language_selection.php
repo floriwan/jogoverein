@@ -5,6 +5,6 @@
     else
         $GLOBALS['lang'] = $_GET['lang'];
             
-    if (!file_exists("header_$lang.php") || !file_exists("body_$lang.php"))
+    if (!file_exists("header.$lang.php") || !file_exists("body.$lang.php"))
         $GLOBALS['lang'] = 'de';
 ?>

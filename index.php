@@ -28,10 +28,10 @@
         <div id="page-wrapper">
                 
                 <!-- Header -->
-                <?php include ("header_".$GLOBALS['lang'].".php"); ?>
+                <?php include ("header.".$GLOBALS['lang'].".php"); ?>
                  
                 <!-- Banner -->
-                <?php include ("body_".$GLOBALS['lang'].".php"); ?>
+                <?php include ("body.".$GLOBALS['lang'].".php"); ?>
             
 
                 <section class="box special">
