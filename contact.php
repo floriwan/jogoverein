@@ -1,24 +1,40 @@
 
 <?php
 
+$post_request = false;
+
+$name = "Name";
+$email_address = "Email";
+$subject = "Subject";
+$message = "Nachricht";
+
+
 if ($_SERVER['REQUEST_METHOD'] === "POST") {
 
-
+    $post_request = true;
+    
 	$errors = '';
 	//$myemail = 'nospam@goeldenitz.org';
 	$myemail = 'verein@goeldenitz.org, nospam@goeldenitz.org';
 	
 	if(empty($_POST['name'])  || empty($_POST['email']) || empty($_POST['message'])) {
-		$errors .= "\n Error: all fields are required";
+		$errors .= "\n Error: all fields are required!";
 	}
 	
-	$name = $_POST['name'];
-	$email_address = $_POST['email'];
-	$message = $_POST['message'];
-	$subject = $_POST['subject'];
+	$x = $_POST['x'];
+	$y = $_POST['y'];
+	$result = $_POST['result'];
+	if (!empty($_POST['name'])) $name = $_POST['name'];
+	if (!empty($_POST['email'])) $email_address = $_POST['email'];
+	if (!empty($_POST['message'])) $message = $_POST['message'];
+	if (!empty($_POST['subject'])) $subject = $_POST['subject'];
+	
+	if ($x + $y != $result) {
+        $errors .= "\n Error: result of the addition is wrong!";
+	}
 	
 	if (!preg_match("/^[_a-z0-9-]+(\.[_a-z0-9-]+)*@[a-z0-9-]+(\.[a-z0-9-]+)*(\.[a-z]{2,3})$/i",$email_address)) {
-		$errors .= "\n Error: Invalid email address";
+		$errors .= "\n Error: invalid email address";
 	}
 	
 	if( empty($errors)) {
@@ -34,7 +50,12 @@ if ($_SERVER['REQUEST_METHOD'] === "POST") {
 		//redirect to the 'thank you' page
 		//header('Location: index.html');
 	} 
+		
 }
+
+$x = rand(1, 5);
+$y = rand(1, 5);
+
 
 ?>
 
@@ -54,7 +75,7 @@ if ($_SERVER['REQUEST_METHOD'] === "POST") {
 		<div id="page-wrapper">
 
             <?php include ("language_selection.php"); ?>
-            <?php include ("header_".$GLOBALS['lang'].".php"); ?>
+            <?php include ("header.".$GLOBALS['lang'].".php"); ?>
 
 			<!-- Main -->
 				<section id="main" class="container 75%">
@@ -66,32 +87,41 @@ if ($_SERVER['REQUEST_METHOD'] === "POST") {
 					<div class="box">
 					
 						<p> 
-							<?php if (empty($errors)) 
-										echo "email erfolgreich versendet";
+							<?php 
+                                if ($post_request) {
+                                    if (empty($errors)) 
+										echo "Email erfolgreich versendet";
 									else
-										echo "email konnte nicht versendet werden (". $errors .")";
-											
+										echo "Email konnte nicht versendet werden (". $errors .")";
+                                }
 							?> 
 						</p>
 						
 						<form method="post" action="">
 							<div class="row uniform 50%">
 								<div class="6u 12u(mobilep)">
-									<input type="text" name="name" value="" placeholder="Name" />
+									<input type="text" name="name" value="" placeholder="<?php echo $name; ?>" />
 								</div>
 								<div class="6u 12u(mobilep)">
-									<input type="email" name="email" value="" placeholder="email" />
+									<input type="email" name="email" value="" placeholder="<?php echo $email_address; ?>" />
 								</div>
 							</div>
 							<div class="row uniform 50%">
 								<div class="12u">
-									<input type="text" name="subject" value="" placeholder="Subject" />
+									<input type="text" name="subject" value="" placeholder="<?php echo $subject; ?>" />
 								</div>
 							</div>
 							<div class="row uniform 50%">
 								<div class="12u">
-									<textarea name="message" placeholder="Nachricht" rows="6"></textarea>
+									<textarea name="message" placeholder="<?php echo $message; ?>" rows="6"></textarea>
 								</div>
+							</div>
+							<div class="row uniform 50%">
+                                <div class="12u">
+                                    <?php echo $x . " + " . $y . " = "; ?><input type="text" name="result" value="" placeholder="" />
+                                    <input type="hidden" name="x" value="<?php echo $x; ?>">
+                                    <input type="hidden" name="y" value="<?php echo $y; ?>">
+                                </div>
 							</div>
 							<div class="row uniform">
 								<div class="12u">

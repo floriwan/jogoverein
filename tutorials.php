@@ -19,7 +19,7 @@
             <?php include ("language_selection.php"); ?>
             
 			<!-- Header -->
-                <?php include ("header_".$GLOBALS['lang'].".php"); ?>
+                <?php include ("header.".$GLOBALS['lang'].".php"); ?>
 
 			<!-- Main -->
 				<section id="main" class="container">

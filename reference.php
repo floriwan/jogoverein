@@ -18,7 +18,7 @@
 
 			<!-- Header -->
             <?php include ("language_selection.php"); ?>
-            <?php include ("header_".$GLOBALS['lang'].".php"); ?>
+            <?php include ("header.".$GLOBALS['lang'].".php"); ?>
 
 
 			<!-- Main -->
