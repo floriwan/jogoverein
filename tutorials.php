@@ -16,10 +16,8 @@
 	<body>
 		<div id="page-wrapper">
 
-            <?php include ("language_selection.php"); ?>
-            
 			<!-- Header -->
-                <?php include ("header.".$GLOBALS['lang'].".php"); ?>
+                <?php include ("header.php"); ?>
 
 			<!-- Main -->
 				<section id="main" class="container">
@@ -28,24 +26,14 @@
 						<p>Tutorials</p>
 					</header>-->
 					<div class="box">
-						<h3>JoGoVEREIN Tutorials (PowerPoint Pr&auml;sentationen)</h3>
+						<h3>JoGoVEREIN Tutorials  <img alt="YouTube logo" src="images/youtube.png"></h3>
 						
 						<p>Die Tutorials beschreiben Abläufe für bestimmte Aufgaben in einfacher Form.
 						Sie sind kein Ersatz für die Dokumentation, die wesentlich detaillierter ist.</p>
-						
-						<p>Falls Microsoft PowerPoint nicht installiert ist, kann der 
-						<a href="http://www.microsoft.com/de-de/download/details.aspx?id=13"> kostenlose PowerPoint Viewer vom Microsoft Download Center</a> installiert werden.</p>
-						
-						<ul class="alt">
-							<li><a href="JoGoVEREIN-Installation.ppsx">
-								<i class="icon fa-download"></i> Download und Installation des Programms</a>
-							<li><a href="JoGoVEREIN-Personalisierung.ppsx">
-								<i class="icon fa-download"></i> Anpassungen von Daten und Programm an eigene Anforderungen</a>
-							<li><a href="JoGoVEREIN-Lastschriften.ppsx"
-								<i class="icon fa-download"></i> Einzug von Beiträgen mit dem SEPA-Lastschriftverfahren</a>
-							<li><a href="JoGoVEREIN-Listen.ppsx">
-								<i class="icon fa-download"></i> Entwurf und Drucken eigener Listen</a>
-						</ul>
+						<p><a href="https://youtu.be/mh4VByxmHgs"> Einführung</a></p>
+						<p><a href="https://youtu.be/2QE7BrH9-sc"> Serienbriefe Teil 1</a></p>
+						<p><a href="https://youtu.be/PvzMpSEplKI"> Serienbriefe Teil 2</a></p>
+						<p><a href="https://youtu.be/SNVSFh26LLU"> Beiträge einziehen</a></p>
 					</div>
 				</section>
 

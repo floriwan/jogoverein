@@ -75,7 +75,7 @@ $y = rand(1, 5);
 		<div id="page-wrapper">
 
             <?php include ("language_selection.php"); ?>
-            <?php include ("header.".$GLOBALS['lang'].".php"); ?>
+            <?php include ("header.php"); ?>
 
 			<!-- Main -->
 				<section id="main" class="container 75%">
