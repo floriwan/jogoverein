@@ -43,13 +43,8 @@
             </section>
         
             <!-- Footer -->
-            <footer id="footer">
-                <ul class="copyright">
-                    <li>&copy; Untitled. All rights reserved.</li>
-                    <li><a href="impressum.php">Impressum</a></li>
-                    <li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
-                </ul>
-            </footer>
+            <?php include ("footer.html"); ?>
+            
         </div>
     
         <!-- Scripts -->
