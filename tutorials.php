@@ -17,7 +17,7 @@
 		<div id="page-wrapper">
 
 			<!-- Header -->
-                <?php include ("header.php"); ?>
+                <?php include ("header.".$GLOBALS['lang'].".php"); ?>
 
 			<!-- Main -->
 				<section id="main" class="container">

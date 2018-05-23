@@ -81,58 +81,11 @@ $y = rand(1, 5);
 				<section id="main" class="container 75%">
 					<header>
 						<h2>Kontakt</h2>
-						<p>Wenn ich Sie &uuml;ber Neuerungen informieren soll, nutzen Sie bitte das Kontakt Formular.</br>
-						Ich trage Sie dann in meinen email Verteiler ein.</p>
+						<p>Wenn ich Sie &uuml;ber Neuerungen informieren soll, senden Sie bitte eine Email an die unten angegebene Adresse.
+						Ich trage Sie dann in meinen Email Verteiler ein.</p>
 					</header>
-					<div class="box">
 					
-						<p> 
-							<?php 
-                                if ($post_request) {
-                                    if (empty($errors)) 
-										echo "Email erfolgreich versendet";
-									else
-										echo "Email konnte nicht versendet werden (". $errors .")";
-                                }
-							?> 
-						</p>
-						
-						<form method="post" action="">
-							<div class="row uniform 50%">
-								<div class="6u 12u(mobilep)">
-									<input type="text" name="name" value="" placeholder="<?php echo $name; ?>" />
-								</div>
-								<div class="6u 12u(mobilep)">
-									<input type="email" name="email" value="" placeholder="<?php echo $email_address; ?>" />
-								</div>
-							</div>
-							<div class="row uniform 50%">
-								<div class="12u">
-									<input type="text" name="subject" value="" placeholder="<?php echo $subject; ?>" />
-								</div>
-							</div>
-							<div class="row uniform 50%">
-								<div class="12u">
-									<textarea name="message" placeholder="<?php echo $message; ?>" rows="6"></textarea>
-								</div>
-							</div>
-							<div class="row uniform 50%">
-                                <div class="12u">
-                                    <?php echo $x . " + " . $y . " = "; ?><input type="text" name="result" value="" placeholder="" />
-                                    <input type="hidden" name="x" value="<?php echo $x; ?>">
-                                    <input type="hidden" name="y" value="<?php echo $y; ?>">
-                                </div>
-							</div>
-							<div class="row uniform">
-								<div class="12u">
-									<ul class="actions align-center">
-										<li><input type="submit" value="Nachricht senden" /></li>
-									</ul>
-								</div>
-							</div>
-						</form>
-					</div>
-					
+											
 					<table><tr>
 					<td>Dipl.-Ing Joachim G&ouml;ldenitz</br>
 						Nibelungenstra&szlig;e 22</br>
