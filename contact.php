@@ -1,64 +1,3 @@
-
-<?php
-
-$post_request = false;
-
-$name = "Name";
-$email_address = "Email";
-$subject = "Subject";
-$message = "Nachricht";
-
-
-if ($_SERVER['REQUEST_METHOD'] === "POST") {
-
-    $post_request = true;
-    
-	$errors = '';
-	//$myemail = 'nospam@goeldenitz.org';
-	$myemail = 'verein@goeldenitz.org, nospam@goeldenitz.org';
-	
-	if(empty($_POST['name'])  || empty($_POST['email']) || empty($_POST['message'])) {
-		$errors .= "\n Error: all fields are required!";
-	}
-	
-	$x = $_POST['x'];
-	$y = $_POST['y'];
-	$result = $_POST['result'];
-	if (!empty($_POST['name'])) $name = $_POST['name'];
-	if (!empty($_POST['email'])) $email_address = $_POST['email'];
-	if (!empty($_POST['message'])) $message = $_POST['message'];
-	if (!empty($_POST['subject'])) $subject = $_POST['subject'];
-	
-	if ($x + $y != $result) {
-        $errors .= "\n Error: result of the addition is wrong!";
-	}
-	
-	if (!preg_match("/^[_a-z0-9-]+(\.[_a-z0-9-]+)*@[a-z0-9-]+(\.[a-z0-9-]+)*(\.[a-z]{2,3})$/i",$email_address)) {
-		$errors .= "\n Error: invalid email address";
-	}
-	
-	if( empty($errors)) {
-		$to = $myemail;
-		$email_subject = "jogoverein contact form : $name - $subject";
-		$email_body = "You have received a new message. ".
-		" Here are the details:\n Name: $name \n ".
-		"Email: $email_address\n Message \n $message";
-		$headers = "From: $myemail\n";
-		$headers .= "Reply-To: $email_address";
-		mail($to,$email_subject,$email_body,$headers);
-		
-		//redirect to the 'thank you' page
-		//header('Location: index.html');
-	} 
-		
-}
-
-$x = rand(1, 5);
-$y = rand(1, 5);
-
-
-?>
-
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
  
@@ -88,17 +27,19 @@ $y = rand(1, 5);
 											
 					<table><tr>
 					<td>Dipl.-Ing Joachim G&ouml;ldenitz</br>
-						Nibelungenstra&szlig;e 22</br>
+						M&ouml;nchbachweg 4</br>
 						64625 Bensheim</br>
 						E-Mail: verein@goeldenitz.org
 					</td>
 					<td>Konto: 285491606</br>
 						BLZ: 50010060 Postbank Ffm</br>
-						IBAN: DE67 50010060 0285491606</br>
+						IBAN: DE67 5001 0060 0285 4916 06</br>
 						BIC: PBNKDEFF	
 					</td>
 				</tr></table>
 
+          <h2>Ferndiagnose</h2>
+          <p>Bitte dazu das Programm <a href="https://anydesk.com/de/downloads"><b>AnyDesk</b></a> herunterladen und ausf&uuml;hren. Die Installation ist nicht erforderlich.</p>
 
 			</section>
 				

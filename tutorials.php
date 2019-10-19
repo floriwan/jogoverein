@@ -34,6 +34,9 @@
 						<p><a href="https://youtu.be/2QE7BrH9-sc"> Serienbriefe Teil 1</a></p>
 						<p><a href="https://youtu.be/PvzMpSEplKI"> Serienbriefe Teil 2</a></p>
 						<p><a href="https://youtu.be/SNVSFh26LLU"> Beiträge einziehen</a></p>
+						<p><a href="https://youtu.be/SZSTyZLjy7Q"> E-Mails Teil 1</a></p>
+						<p><a href="https://youtu.be/9B5Xk92UUQo"> E-Mails Teil 2</a></p>
+						<p><a href="https://youtu.be/LKNdZQGaghA"> E-Mails Teil 3</a></p>
 					</div>
 				</section>
 

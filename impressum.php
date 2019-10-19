@@ -36,7 +36,7 @@
 						   Sorgfalt bei der Erstellung der Software übernimmt der Anbieter keine Gewähr für Fehlerfreiheit.</p>
 						<table><tr>
 							<td>Dipl.-Ing Joachim Göldenitz</br>
-								Nibelungenstraße 22</br>
+								Mönchbachweg 4</br>
 								64625 Bensheim</br>
 								E-Mail: verein@goeldenitz.org
 							</td>

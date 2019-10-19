@@ -57,33 +57,32 @@
           <h2>Aktuelles</h2>
           
           <ul class="dates">
-            	<li>
-                <span class="date">Mai<strong>23</strong></span>
+          	<li>
+          	    <span class="date">2019<strong>Sep</strong></span>
+          			<h3>Version 3.6.2</h3>
+						    <p>Im Grafik-Fenster der Statistiken gibt es die neue Funktion &quot;Seite einrichten&quot;, was insbesondere zum Umschalten auf Querformat wichtig ist.</p>
+						    <p>Mit der Funktion &quot;Allen Feldern einer Tabellenspalte einen neuen Inhalt zuweisen&quot; lassen sich auch dann die Mitgliedsnummern &auml;ndern, wenn Verweise auf andere Mitgliederdatens&auml;tze vorhanden sind.</p>
+						    <p>Im Kassenbuch einen Fehler bei der <b>Steuerberechnung</b> behoben.</p>
+          	</li>
+          	<li>
+                <span class="date">2019<strong>Jun</strong></span>
+                <h3>Version 3.6.1</h3>
+                <p>Texte lassen sich als <b>QR-Code</b> ausdrucken, was z.B. bei Mitgliedsausweisen sinnvoll sein kann.</p>
+             </li>
+          	 <li>
+                <span class="date">2019<strong>Feb</strong></span>
+                <h3>Version 3.6.0</h3>
+                <p>Die Betreffzeile bei E-Mails wird gespeichert. Die Doppeldeutigkeit der Feld- und Funktionsnamen von IBAN und BIC wird richtig interpretiert.</p>
+                <p>Im Kassenbuch lassen sich Spalten für die <b>Steuerberechnung</b> ein- und ausblenden. Die Einstellung wird gespeichert.</p> 
+             </li>
+          	 <li>
+                <span class="date">2018<strong>Mai</strong></span>
                 <h3>Version 3.5.1</h3>
                 <p>Bei der Funktion der Mitgliedertabelle "Allen Zeilen einer Tabellenspalte einen neuen Inhalt zuweisen" lassen sich die Eintr&auml;ge im Logbuch ausschalten.</p>    
     						<p>Unter dem Men&uuml; "Parameter und Vorlagen f&uuml;r E-Mails" lassen sich die E-Mail-Parameter in einem separaten Fenster detailliert testen.</p>
     						<p>&Uuml;ber das Hilfemen&uuml; und bei der Registrierung des Programms lassen sich die <b>Datenschutzhinweise</b> anzeigen.</p>
-            </li>
-           	<li>
-                <span class="date">Dez<strong>15</strong></span>
-                <h3>Version 3.5.0</h3>
-                <p>Beim <b>SEPA Lastschriftverfahren</b> kann eine fehlerhafte oder fehlende BIC auf Wunsch berechnet und eingetragen werden. Auch ein fehlendes Unterschriftsdatum (DtOfSgntr) kann automatisch angelegt werden.</p>
-            </li>
-           	<li>
-                <span class="date">Nov<strong>19</strong></span>
-                <h3>Version 3.4.9</h3>
-                <p><b>Behobene Fehler:</b><br>
-                Beim Druck der Haushaltspositionen wurde der Wert der letzten Buchungsnummer teilweise abgeschnitten. Ein Fehler beim Anlegen von Auswahlfeldern f&uuml;r Datenfelder mit einem "-" im Feldnamen ist behoben.</p>
-            </li>
-          	<li>
-                <span class="date">Okt<strong>04</strong></span>
-                <h3>Version 3.4.8</h3>
-                <p><b>Neue Funktionen:</b><br>
-                Die BIC wird in der Eingabemaske automatisch aus der IBAN abgeleitet und eingetragen. Im Fenster "BLZ, BIC, PLZ, ONKZ, L&auml;nder" l&auml;sst sich der Wert des Tabellenfeldes in die Windows-Zwischenablage kopieren. Es l&auml;sst sich ein detalliertes Protokoll zur Ausf&uuml;hrung der Feldberechnung anzeigen.</p>
-                <p><b>Behobene Fehler:</b><br>
-                In den Statistikfunktionen funktionierte die Komprimierung f&uuml;r den Datentyp "Datum" nicht. In den Feldberechnungen war das Beispiel zur Altersberechnung fehlerhaft. Beim Druck der Haushaltspositionen wurde der Wert der letzten Buchungsnummer teilweise abgeschnitten. Beim Druck des Kassenbuchs war bei "Ausgew&auml;hlte Buchungen" die Auswahl nicht richtig. Beim Anlegen von Auswahlfeldern f&uuml;hrten &uuml;berlange Feldinhalte zum Programmabbruch.</p>
-            </li>
-        </ul>
+             </li>
+         </ul>
       </section>
 
       <a id="screenshots"></a>
@@ -137,13 +136,12 @@
 
           <p>Die Programminstallation beinhaltet eine Hilfedatei eine Beispieldatenbank und eine Datenbank
           mit Bank-, Postleitzahlen und Ortnetzkennzahlen von Deutschland, Schweiz und Österreich.</p>
-          <p><a href="JoGoVEREIN.msi"><i class="icon fa-download"></i> <strong>JoGoVEREIN.msi 3.5.1 Windows Vista,7,8,10 (7,87MB)</strong></a></p>
+          <p><a href="JoGoVEREIN.msi"><i class="icon fa-download"></i> <strong>JoGoVEREIN.msi 3.6.2 Windows Vista,7,8,10 (8,11MB)</strong></a></p>
           <p>Das Programm ist Freeware. Es ist ohne Registrierung voll funktionsfähig.<br></br>
              Lediglich beim Druck gibt es einen Hinweis auf die fehlende Registrierung.</p>
           <p>Die Registrierung kostet für die Access-Version 80,- Euro und die MySQL-Version 120,- Euro.<br></br>
           Upgrade von Access auf MySQL für 40,- Euro ist möglich. Alle nachfolgenden Versionen sind frei.</p>
           <p>Für jede Zusatzlizenz berechne ich 1/4 der normalen Registrierung.</p>
           <p>Für die Anwendung des Programms im <a href="https://www.wingolf.org">Wingolf <img src="images/p-wingolflogo.gif" alt="Wingolf"></a> ist die Registrierung kostenlos.</p>
-
       </section>
 

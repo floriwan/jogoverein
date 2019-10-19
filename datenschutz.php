@@ -33,6 +33,11 @@
                     <p><bold>Ich erhebe keinerlei Daten aus der Nutzung meines Webauftritts und beziehe auch keine Daten über Ihre Nutzung 
                     meines Webangebots von meinem Web-Dienstleister, der meine Website im Internet bereitstellt („Hoster“).</p>
                     
+                    <p>Um Beiträge im Forum zu schreiben ist eine Registrierung mit Benutzernamen und Passwort erforderlich.
+                    Diese Informationen haben nur den Zweck, im Forum eine Kommunikation zwischen den Forumsteilnehmern zu ermöglichen.
+                    Auf dem Server werden Logdateien über Datum und Uhrzeit des Zugriffs sowie der Nutzungdauer der angemeldeten Forumsbesucher geführt.
+                    Diese Informationen ermöglichen keine Rückschlüsse auf die Person. Sie sind aber für die Optimierung und Darstellung des Forums unverzichtbar.</p>  
+                    
                     <p>Wenn Sie weitergehende Fragen zum Datenschutz im Zusammenhang mit meinem Internetauftritt haben, 
                     wenden Sie sich bitte an mich (siehe Impressum).</p>
                     
