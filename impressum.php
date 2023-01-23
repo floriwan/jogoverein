@@ -26,10 +26,9 @@
 					</header>
 					<div class="box">
 					  <h3>Nutzungsrechte</h3>
-						<p>Durch den Download ist es dem Kunden gestattet, die Software auf einem Computer zu installieren und zu testen.
+						<p>Durch den Download ist es dem Kunden gestattet, die Software auf einem Computer zu installieren und zu verwenden.
 						   Die unentgeltliche Weitergabe oder Überlassung der Software an Dritte durch den Kunden ist erlaubt.
-						   Der Kunde kann die Software durch den Erwerb und die Installation eines Lizenzschlüssels in der Funktion erweitern.
-						   Die Weitergabe des Schlüssels an Dritte ist nicht erlaubt und stellt eine Verletzung des Lizenzvertrages dar.</p>
+						   Der Kunde kann die Software durch den Erwerb und die Installation eines Lizenzschlüssels personalisieren.</p>
 						<h3>Haftungsausschluss</h3>
 						<p>Mit der Nutzung des Programms kommt keinerlei Vertragsverhältnis zwischen dem Nutzer und dem Anbieter
 						   zustande. Insofern ergeben sich auch keinerlei Ansprüche gegen den Anbieter. Trotz größter

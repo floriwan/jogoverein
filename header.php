@@ -8,7 +8,9 @@
 			<li><a href="tutorials.php">Videos</a></li>
 			<li><a href="contact.php">Kontakt</a></li>
 			<li><a href="reference.php">Referenzen</a></li>
+			<!-- 
 			<li><a href="http://www.goeldenitz.org/smf">Forum</a></li>
+			-->
 		</ul>
 	</nav>
 </header>

@@ -1,4 +1,4 @@
-﻿
+﻿<!-- 4.0.6 -->
    <section id="banner">
         <p><img alt="JoGoVEREIN logo" src="images/JoGoVERE98x88.gif"></p>
         <h2>JoGoVEREIN</h2>
@@ -6,9 +6,20 @@
         <p><a href="http://deupad.org/factsheet.asp?http://jogoverein.goeldenitz.org/pad_file.xml" target="_blank">
            <i class="icon fa-external-link"></i> DeuPAD Factsheet</a></p>
    </section>
-
+   
       <section id="main" class="container">
+       <a id="download"></a>
       <section class="box feature">
+          <h2>Download</h2>
+          <p>Das Programm l&auml;uft unter Windows 10 und Windows 11.<br>
+          	 Die Programminstallation beinhaltet eine Hilfedatei eine Beispieldatenbank und eine Datenbank
+             mit Bank-, Postleitzahlen und Ortnetzkennzahlen von Deutschland, Schweiz und &Ouml;sterreich.</p>
+          <p><a href="JoGoVEREIN.msi"><i class="icon fa-download"></i> <strong><u> JoGoVEREIN.msi Version 4.0.6 (9,67MB)</u></strong></a></p>
+          <p>Das Programm ist Freeware. Es entstehen keinerlei Kosten.</p>
+      </section>
+            	
+      <section class="box feature">
+      	  <h2>Merkmale</h2>
           <p>Das Programm <strong>JoGoVEREIN</strong> ist primär für Vereinsaufgaben geeignet. Es verwaltet die Mitglieder mit deren Beitragskonten und führt das Kassenbuch. Die Programmarchitektur ist sehr flexibel und bietet viel Freiheit für eigene Anpassungen und Erweiterungen. Die Voreinstellungen des Programms lassen sich sehr weitgehend den individuellen Wünschen anpassen.
           </p>
           <ul>
@@ -49,44 +60,70 @@
               <li>Druckausgaben lassen sich als Textdatei (ohne Druckersteuerzeichen) ausgeben.</li>
           </ul>
       </section>
-
-      <a id="news"></a>
-
-      <section class="box feature">
       
+       <a id="news"></a>
+      <section class="box feature">      
           <h2>Aktuelles</h2>
-          
           <ul class="dates">
           	<li>
-          	    <span class="date">2019<strong>Sep</strong></span>
-          			<h3>Version 3.6.2</h3>
-						    <p>Im Grafik-Fenster der Statistiken gibt es die neue Funktion &quot;Seite einrichten&quot;, was insbesondere zum Umschalten auf Querformat wichtig ist.</p>
-						    <p>Mit der Funktion &quot;Allen Feldern einer Tabellenspalte einen neuen Inhalt zuweisen&quot; lassen sich auch dann die Mitgliedsnummern &auml;ndern, wenn Verweise auf andere Mitgliederdatens&auml;tze vorhanden sind.</p>
-						    <p>Im Kassenbuch einen Fehler bei der <b>Steuerberechnung</b> behoben.</p>
+          	    <span class="date">2022<strong>Jan</strong></span>	
+          	   	<h3>Version 4.0.6</h3>    	
+								<p>Ungew&ouml;hnliche Formateinstellungen von <b>Datum+Zeit</b> unter Windows werden korrekt erkannt.
+			 							Die Kontostandspr&uuml;fungen beim <b>Kassenabschluss</b> wurden &uuml;berarbeitet.</p>
           	</li>
           	<li>
-                <span class="date">2019<strong>Jun</strong></span>
-                <h3>Version 3.6.1</h3>
-                <p>Texte lassen sich als <b>QR-Code</b> ausdrucken, was z.B. bei Mitgliedsausweisen sinnvoll sein kann.</p>
-             </li>
-          	 <li>
-                <span class="date">2019<strong>Feb</strong></span>
-                <h3>Version 3.6.0</h3>
-                <p>Die Betreffzeile bei E-Mails wird gespeichert. Die Doppeldeutigkeit der Feld- und Funktionsnamen von IBAN und BIC wird richtig interpretiert.</p>
-                <p>Im Kassenbuch lassen sich Spalten für die <b>Steuerberechnung</b> ein- und ausblenden. Die Einstellung wird gespeichert.</p> 
-             </li>
-          	 <li>
-                <span class="date">2018<strong>Mai</strong></span>
-                <h3>Version 3.5.1</h3>
-                <p>Bei der Funktion der Mitgliedertabelle "Allen Zeilen einer Tabellenspalte einen neuen Inhalt zuweisen" lassen sich die Eintr&auml;ge im Logbuch ausschalten.</p>    
-    						<p>Unter dem Men&uuml; "Parameter und Vorlagen f&uuml;r E-Mails" lassen sich die E-Mail-Parameter in einem separaten Fenster detailliert testen.</p>
-    						<p>&Uuml;ber das Hilfemen&uuml; und bei der Registrierung des Programms lassen sich die <b>Datenschutzhinweise</b> anzeigen.</p>
-             </li>
-         </ul>
+          	    <span class="date">2021<strong>Juli</strong></span>
+          			<h3>Version 4.0.5</h3>
+						    <p>Neue Programmfunktionen f&uuml;r einen speziellen Kunden, die &uuml;ber die Programmregistrierung aktiviert werden.</p>	
+						</li>
+          	<li>
+          	    <span class="date">2021<strong>April</strong></span>
+          			<h3>Version 4.0.4</h3>
+						    <p>Beim Anlagen einer neuen Datenbank konnte die erste Zeile im Kassenbuch ohne Konto eingetragen sein, was zum Programmabbruch f&uuml;hrte.</p>	
+						</li>
+          	<li>
+          	    <span class="date">2021<strong>Jan</strong></span>
+          			<h3>Version 4.0.3</h3>
+						    <p>Beim Einrichten einer <b>Druckseite</b> wird zus&auml;tzlich zu den R&auml;ndern die <b>Ausrichtung</b> (hoch/quer) gespeichert.</p>	
+						</li>
+          	<li>
+          	    <span class="date">2020<strong>Juni</strong></span>
+          			<h3>Version 4.0.2</h3>
+						    <p>Bei <b>&quot;Externen Tabellen&quot;</b> lassen sich zus&auml;tzlich zu den Access-Tabellen auch Tabellen im Excel-Format anzeigen. Bei Access-Tabellen ist eine Bearbeitung der Inhalte m&ouml;glich.</p>	
+						</li>
+          	<li>
+          	    <span class="date">2020<strong>Mai</strong></span>
+          			<h3>Version 4.0.1</h3>
+						    <p>Bei der Anzeige der den Mitgliedern zugeordneten <b>Notizen</b> gibt es sowohl in der Gesamtansicht als auch in der Ansicht innerhalb der Mitgliedermaske Verbesserungen.
+			    				Die Spalten lassen sich durch einen Mausklick auf die entsprechende Spalten&uuml;berschrift sortieren. Alle Feldinhalte sind direkt in dem Tabellenfeld editierbar.</p>	
+						</li>          	
+          	<li>
+          	    <span class="date">2020<strong>Mai</strong></span>
+          			<h3>Version 4.0.0</h3>
+						    <p><b>Das Programm ist ab dieser Version kostenlos. Eine Registrierung entf&auml;llt.</b><br>
+						    	 Ich bedanke mich bei meinen registrierten Kunden f&uuml;r die Unterst&uuml;tzung. Ohne sie g&auml;be es das Programm nicht.<br>
+						    	 Bei Programmstart wird einmal pro Woche gepr&uuml;ft, ob auf der Homepage eine neue Version existiert.
+			 						 Mit einem besonderen Men&uuml;punkt l&auml;sst sich die Aktualit&auml;t des Programms abfragen.</p>
+						</li>
+          	<li>
+          	    <span class="date">2020<strong>April</strong></span>
+          			<h3>Version 3.6.5</h3>
+						    <p><b>Achtung, nur f&uuml;r die Serverversion von Bedeutung!</b><br>
+    	 							Der f&uuml;r die MySQL Verbindung ben&ouml;tigte Treiber wurde aktualisiert von Version 5.3 auf 8.0. 
+    	 							Auf den Internetseiten von <a href="https://www.mysql.com/de/">MySQL</a> ist der passende ODBC Treiber als <b>mysql-connector-odbc-8.0.19-win32.msi</b> zu finden.</p>
+						</li>
+           	<li>
+          	    <span class="date">2020<strong>M&auml;rz</strong></span>
+          			<h3>Version 3.6.4</h3>
+						    <p>Beim Export der Mitgliederdaten nach Excel f&uuml;hren Textfeldern mit als Zahl interpretierbarem Inhalt
+                   z.B. 789E+123 zum Fehler.</p>
+                <p>Variablen f&uuml;r die Feldberechnung mit gleichem Namen wie Datenfelder im Mitgliederdatensatz werden nicht erkannt und f&uuml;hren zum Fehler.</p>
+						</li>
+			  	</ul>
       </section>
-
+      
       <a id="screenshots"></a>
-
+					<h2>Screenshots</h2>
           <div class="row">
                <div class="6u 12u(narrower)">
                     <section class="box special">
@@ -119,7 +156,7 @@
                <div class="6u 12u(narrower)">
                     <section class="box special">
                          <span class="image featured"><img src="images/screen5.jpg" alt="" /></span>
-                         <p>Zählerstände</p>
+                         <p>Z&auml;hlerst&auml;nde</p>
                     </section>
                </div>
                <div class="6u 12u(narrower)">
@@ -129,19 +166,4 @@
                     </section>
                </div>
            </div>
-
-      <a id="download"></a>
-      <section class="box feature">
-          <h2>Download</h2>
-
-          <p>Die Programminstallation beinhaltet eine Hilfedatei eine Beispieldatenbank und eine Datenbank
-          mit Bank-, Postleitzahlen und Ortnetzkennzahlen von Deutschland, Schweiz und Österreich.</p>
-          <p><a href="JoGoVEREIN.msi"><i class="icon fa-download"></i> <strong>JoGoVEREIN.msi 3.6.2 Windows Vista,7,8,10 (8,11MB)</strong></a></p>
-          <p>Das Programm ist Freeware. Es ist ohne Registrierung voll funktionsfähig.<br></br>
-             Lediglich beim Druck gibt es einen Hinweis auf die fehlende Registrierung.</p>
-          <p>Die Registrierung kostet für die Access-Version 80,- Euro und die MySQL-Version 120,- Euro.<br></br>
-          Upgrade von Access auf MySQL für 40,- Euro ist möglich. Alle nachfolgenden Versionen sind frei.</p>
-          <p>Für jede Zusatzlizenz berechne ich 1/4 der normalen Registrierung.</p>
-          <p>Für die Anwendung des Programms im <a href="https://www.wingolf.org">Wingolf <img src="images/p-wingolflogo.gif" alt="Wingolf"></a> ist die Registrierung kostenlos.</p>
-      </section>
 

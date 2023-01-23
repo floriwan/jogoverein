@@ -30,8 +30,6 @@
 
                 <section class="box special">
                     <a class="img_link" href="http://standaloneinstaller.com/56488/jogoverein&r=r1" title="JoGoVEREIN" target="_blank"><img src="http://images.standaloneinstaller.com/badges/rnd.badge.1.png" alt="Get it from StandaloneInatller.com!" height="51" width="148" align="center" border="0" /></a>
-                    <a class="img_link" href="http://www.s-a-ve.com/" title="JoGoVEREIN" target="_blank"><img alt="SAVE" src="images/save.png"/></a>
-                    <a class="img_link" href="http://www.softguide.de/programm/jogoverein" title="JoGoVEREIN" target="_blank"><img alt="SoftGuide" src="http://www.softguide.de/grafik/sg_member.jpg"/></a>
                     <a class="img_link" href="http://www.chip.de/downloads/JoGoVerein-Vereinssoftware_68833714.html" title="JoGoVEREIN" target="_blank"><img alt="CHIP" src="http://www.chip.de/unabh_dateien/6345957/chippick_ger.png" width="200"/></a>
                     <a class="img_link" href="https://www.freeware.de/download/jogoverein/" title="JoGoVEREIN" target="_blank"><img alt="Freeware.de" src="images/w-freeware.bmp"/></a>
                     <a class="img_link" href="https://www.shareware.de/download/jogoverein/" title="JoGoVEREIN" target="_blank"><img alt="Shareware.de" src="images/w-shareware.gif"/></a>

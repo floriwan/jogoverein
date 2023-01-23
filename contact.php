@@ -13,33 +13,27 @@
 	<body>
 		<div id="page-wrapper">
 
-            <?php include ("language_selection.php"); ?>
             <?php include ("header.php"); ?>
 
 			<!-- Main -->
 				<section id="main" class="container 75%">
 					<header>
 						<h2>Kontakt</h2>
-						<p>Wenn ich Sie &uuml;ber Neuerungen informieren soll, senden Sie bitte eine Email an die unten angegebene Adresse.
-						Ich trage Sie dann in meinen Email Verteiler ein.</p>
 					</header>
 					
-											
-					<table><tr>
-					<td>Dipl.-Ing Joachim G&ouml;ldenitz</br>
+					<p>Bitte verwenden Sie f&uuml;r Anfragen m&ouml;glichst eine E-Mail.</p>
+					
+					<p>Dipl.-Ing Joachim G&ouml;ldenitz</br>
 						M&ouml;nchbachweg 4</br>
 						64625 Bensheim</br>
-						E-Mail: verein@goeldenitz.org
-					</td>
-					<td>Konto: 285491606</br>
-						BLZ: 50010060 Postbank Ffm</br>
-						IBAN: DE67 5001 0060 0285 4916 06</br>
-						BIC: PBNKDEFF	
-					</td>
+						E-Mail: verein@goeldenitz.org</br>
+						Tel.:   06251 1750696
+					</p>
+					
 				</tr></table>
 
           <h2>Ferndiagnose</h2>
-          <p>Bitte dazu das Programm <a href="https://anydesk.com/de/downloads"><b>AnyDesk</b></a> herunterladen und ausf&uuml;hren. Die Installation ist nicht erforderlich.</p>
+          <p>Bitte dazu das Programm <a href="https://anydesk.com/de/downloads"><strong><u>AnyDesk</u></strong></a> herunterladen und ausf&uuml;hren. Die Installation ist nicht erforderlich.</p>
 
 			</section>
 				

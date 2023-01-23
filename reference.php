@@ -17,14 +17,15 @@
 		<div id="page-wrapper">
 
 			<!-- Header -->
-            <?php include ("header.php"); ?>
+                        <?php include ("header.php"); ?>
+            
 
 
 			<!-- Main -->
 				<section id="main" class="container">
 					<header>
 						<h2>JoGoVEREIN</h2>
-						<p>Referenzen</p>
+						<p>Falls Sie aufgenommen oder gel&ouml;scht werden m&ouml;chten, schicken Sie eine E-Mail.</p>
 					</header>
 					<div class="box">
 					
